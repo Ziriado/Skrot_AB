@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulär Sida</title>
+</head>
+
+<body>
+    <div>
+        <iframe src="toppagepicture.html" width="830" height="220" style="border: none;"></iframe>
+    </div>
+    <div>
+        <form action="http://primat.se/services/sendform.aspx?xid=register&xmail=christoffer.gustafsson@fakemail.se"
+            method="post">
+
+            <label for="name">Namn</label>
+            <input type="text" id="name" name="name"><br>
+
+            <label for="adress">Adress</label>
+            <input type="text" id="adress" adress="adress"><br>
+
+            <label for="email">E-Mail</label>
+            <input type="text" id="email" email="email"><br>
+
+            <label for="telefon">Telefonummer</label>
+            <input type="text" id="telefon" telefon="telefon"><br>
+
+            <p>Storlek på företaget:</p>
+            <input type="radio" name="companysize" id="smallsize" value="small">
+            <label for="smallsize">1-100 anställda</label><br>
+
+            <input type="radio" name="companysize" id="mediumsize" value="medium">
+            <label for="smallsize">101-1000 anställda</label><br>
+
+            <input type="radio" name="companysize" id="largesize" value="large">
+            <label for="smallsize">Mer än 1000</label><br>
+
+
+            <label for="info">Skriv något här ifall du har en fråga</label>
+            <br>
+            <textarea id="info" rows="5" cols="80" name="info"></textarea>
+            <br>
+
+            <input type="hidden" name="newsletter" value="nej">
+            <input type="checkbox" id="newletter" name="newsletter" value="ja">
+            <label for="newletter">Vill du ha nyhetsbrev</label>
+            <br>
+
+            <input type="hidden" name="phonecontact" value="nej">
+            <input type="checkbox" id="phonecontact" name="phonecontact" value="ja">
+            <label for="newletter">Vill du bli kontakdtad på telefon?</label>
+
+            <br><br>
+            <input type="submit" value="Registrera dig">
+
+        </form>
+    </div>
+    <br><br>
+    <li><a href="contact.html">Kontakt sida</a></li>
+    <li><a href="product.html">Produkt sida</a></li>
+    <li><a href="index.html">Startsida sida</a></li>
+    <li><a href="videopage.html">Video sida</a></li>
+
+    <iframe src="bottompage.html" width="800" height=" 400" style="border: none">
+            
+    </iframe>
+</body>
+
+</html>
